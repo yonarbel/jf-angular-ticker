@@ -5,7 +5,7 @@
     "angular": "~1.4.0",
     "angular-route": "~1.4.5"
   },
-  "repository": "https://github.com/ttbarnes/angular-ticker",
+  "repository": "https://github.com/yonarbel/jf-angular-ticker",
   "devDependencies": {
     "angular-mocks": "^1.3.0",
     "grunt": "^0.4.5",
@@ -46,7 +46,5 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "grunt test",
-    "install": "node node_modules/protractor/bin/webdriver-manager update"
   }
 }
