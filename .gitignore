@@ -1,0 +1,7 @@
+node_modules
+.tmp
+.idea
+.sass-cache
+npm-debug.log
+.gitattributes
+.jshintrc
