@@ -401,7 +401,7 @@ module.exports = function (grunt) {
       styles: {
         expand: true,
         cwd: '<%= yeoman.app %>/styles',
-        dest: '.tmp/styles/',
+        dest: 'release/styles/',
         src: '{,*/}*.css'
       },
       release:{
@@ -546,6 +546,7 @@ module.exports = function (grunt) {
   grunt.registerTask('releasepackage', [
     'clean:release',
     'copy:release',
+    'copy:styles',
     'uglify:release',
     'compass:release',
     'cssmin:release'
